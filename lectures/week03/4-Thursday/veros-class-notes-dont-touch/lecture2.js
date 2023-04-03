@@ -11,16 +11,16 @@
 
 // // C  R  U  D 
 
-// let students = {
-//     firstName : "Kelly", 
-//     city: "Houston"
-// }
+let students = {
+    firstName : "Kelly", 
+    city: "Houston"
+}
 
 
-// for (key in students){
+for (key in students){
 
-//     console.log(key, students[key]  );
-// }
+    console.log(key, students[key]  );
+}
 
 
 
@@ -91,41 +91,41 @@ let contacts = {
 }
 
 
-// let result = contacts.Hunter.workNumer
+let result = contacts.Hunter.workNumer
 
-// console.log(result);
+console.log(result);
 
 
-// [{}, {}, {}, ]
-//  0   1   2
+[{}, {}, {}, ]
+ 0   1   2
 
-// [{}, {}]
-//  0   1
-// let contact = [
-//     {
-//         first_name: 'Phillip',
-//         last_name: 'Guo',
-//         email: 'phillip.guo@gmail.com',
-//         phone:{
-//             work:'837-494-3948',
-//             cell: '234-897-4933'
-//         }
-//     },
-//     {
-//         first_name: 'Mark',
-//         last_name: 'Guzdial',
-//         email: 'mark.guzdial@gatech.edu',
-//         phone:{
-//             work:'484-569-3466',
-//             cell: '493-485-9845'
-//         }
-//     }
-// ]
+[{}, {}]
+ 0   1
+let contact = [
+    {
+        first_name: 'Phillip',
+        last_name: 'Guo',
+        email: 'phillip.guo@gmail.com',
+        phone:{
+            work:'837-494-3948',
+            cell: '234-897-4933'
+        }
+    },
+    {
+        first_name: 'Mark',
+        last_name: 'Guzdial',
+        email: 'mark.guzdial@gatech.edu',
+        phone:{
+            work:'484-569-3466',
+            cell: '493-485-9845'
+        }
+    }
+]
 
-// console.log(contact[0].phone.work);
+console.log(contact[0].phone.work);
 
-// [{}, {}, {}]
-//  0   1  2
+[{}, {}, {}]
+ 0   1  2
 
 const people = { data: [
     { name: 'Alice', age: 25 },

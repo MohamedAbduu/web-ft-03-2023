@@ -1,0 +1,23 @@
+{
+  "name": "js-hw-phonebook",
+  "version": "1.0.0",
+  "description": "In this homework assignment, you will test your knowledge of working with objects by buidling a  `Phone Book` app.",
+  "main": "phonebook.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DigitalCraftsStudents/js-hw-phonebook.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DigitalCraftsStudents/js-hw-phonebook/issues"
+  },
+  "homepage": "https://github.com/DigitalCraftsStudents/js-hw-phonebook#readme",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
